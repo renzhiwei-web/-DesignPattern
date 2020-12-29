@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>builder.builderPattern.Bottle</OriginalElement>
+  <nodes>
+    <node x="348.0" y="162.0">builder.builderPattern.ChickenBurger</node>
+    <node x="124.0" y="319.0">builder.builderPattern.Bottle</node>
+    <node x="265.0" y="238.0">builder.builderPattern.BuilderPatternDemo</node>
+    <node x="208.0" y="162.0">builder.builderPattern.VegBurger</node>
+    <node x="0.0" y="162.0">builder.builderPattern.Pepsi</node>
+    <node x="181.0" y="395.0">builder.builderPattern.Meal</node>
+    <node x="108.0" y="162.0">builder.builderPattern.Coke</node>
+    <node x="60.0" y="238.0">builder.builderPattern.Packing</node>
+    <node x="0.0" y="319.0">builder.builderPattern.Wrapper</node>
+    <node x="298.0" y="81.0">builder.builderPattern.Burger</node>
+    <node x="36.0" y="81.0">builder.builderPattern.ColdDrink</node>
+    <node x="197.0" y="0.0">builder.builderPattern.Item</node>
+    <node x="0.0" y="395.0">builder.builderPattern.MealBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="builder.builderPattern.Burger" target="builder.builderPattern.Item">
+      <point x="0.0" y="-15.5" />
+      <point x="346.0" y="56.0" />
+      <point x="257.0" y="56.0" />
+      <point x="20.0" y="15.5" />
+    </edge>
+    <edge source="builder.builderPattern.ChickenBurger" target="builder.builderPattern.Burger">
+      <point x="0.0" y="-15.5" />
+      <point x="424.0" y="137.0" />
+      <point x="370.0" y="137.0" />
+      <point x="24.0" y="15.5" />
+    </edge>
+    <edge source="builder.builderPattern.Coke" target="builder.builderPattern.ColdDrink">
+      <point x="0.0" y="-15.5" />
+      <point x="148.0" y="137.0" />
+      <point x="126.0" y="137.0" />
+      <point x="30.0" y="15.5" />
+    </edge>
+    <edge source="builder.builderPattern.Bottle" target="builder.builderPattern.Packing">
+      <point x="0.0" y="-15.5" />
+      <point x="172.0" y="294.0" />
+      <point x="138.0" y="294.0" />
+      <point x="26.0" y="15.5" />
+    </edge>
+    <edge source="builder.builderPattern.Pepsi" target="builder.builderPattern.ColdDrink">
+      <point x="0.0" y="-15.5" />
+      <point x="44.0" y="137.0" />
+      <point x="66.0" y="137.0" />
+      <point x="-30.0" y="15.5" />
+    </edge>
+    <edge source="builder.builderPattern.Wrapper" target="builder.builderPattern.Packing">
+      <point x="0.0" y="-15.5" />
+      <point x="52.0" y="294.0" />
+      <point x="86.0" y="294.0" />
+      <point x="-26.0" y="15.5" />
+    </edge>
+    <edge source="builder.builderPattern.ColdDrink" target="builder.builderPattern.Item">
+      <point x="0.0" y="-15.5" />
+      <point x="96.0" y="56.0" />
+      <point x="217.0" y="56.0" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+    <edge source="builder.builderPattern.VegBurger" target="builder.builderPattern.Burger">
+      <point x="0.0" y="-15.5" />
+      <point x="268.0" y="137.0" />
+      <point x="322.0" y="137.0" />
+      <point x="-24.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="151.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
