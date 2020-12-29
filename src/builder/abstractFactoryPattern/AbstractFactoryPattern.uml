@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>builder.abstractFactoryPattern.Rectangle</OriginalElement>
+  <nodes>
+    <node x="531.0" y="74.0">builder.abstractFactoryPattern.Green</node>
+    <node x="413.0" y="292.0">builder.abstractFactoryPattern.ColorFactory</node>
+    <node x="639.0" y="74.0">builder.abstractFactoryPattern.Red</node>
+    <node x="-445.0" y="192.0">builder.abstractFactoryPattern.AbstractFactoryPatternDemo</node>
+    <node x="531.0" y="-7.0">builder.abstractFactoryPattern.Color</node>
+    <node x="-87.0" y="188.0">builder.abstractFactoryPattern.FactoryProducer</node>
+    <node x="319.0" y="211.0">builder.abstractFactoryPattern.AbstractFactory</node>
+    <node x="140.0" y="81.0">builder.abstractFactoryPattern.Circle</node>
+    <node x="431.0" y="74.0">builder.abstractFactoryPattern.Blue</node>
+    <node x="0.0" y="81.0">builder.abstractFactoryPattern.Rectangle</node>
+    <node x="144.0" y="0.0">builder.abstractFactoryPattern.Shape</node>
+    <node x="256.0" y="81.0">builder.abstractFactoryPattern.Square</node>
+    <node x="249.0" y="292.0">builder.abstractFactoryPattern.ShapeFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="builder.abstractFactoryPattern.Red" target="builder.abstractFactoryPattern.Color">
+      <point x="0.0" y="-15.5" />
+      <point x="675.0" y="49.0" />
+      <point x="604.3333333333333" y="49.0" />
+      <point x="29.333333333333314" y="15.5" />
+    </edge>
+    <edge source="builder.abstractFactoryPattern.Circle" target="builder.abstractFactoryPattern.Shape">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="builder.abstractFactoryPattern.Green" target="builder.abstractFactoryPattern.Color">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="builder.abstractFactoryPattern.ColorFactory" target="builder.abstractFactoryPattern.AbstractFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="485.0" y="267.0" />
+      <point x="445.0" y="267.0" />
+      <point x="42.0" y="15.5" />
+    </edge>
+    <edge source="builder.abstractFactoryPattern.Rectangle" target="builder.abstractFactoryPattern.Shape">
+      <point x="0.0" y="-15.5" />
+      <point x="60.0" y="56.0" />
+      <point x="158.66666666666666" y="56.0" />
+      <point x="-29.333333333333343" y="15.5" />
+    </edge>
+    <edge source="builder.abstractFactoryPattern.ShapeFactory" target="builder.abstractFactoryPattern.AbstractFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="321.0" y="267.0" />
+      <point x="361.0" y="267.0" />
+      <point x="-42.0" y="15.5" />
+    </edge>
+    <edge source="builder.abstractFactoryPattern.Blue" target="builder.abstractFactoryPattern.Color">
+      <point x="0.0" y="-15.5" />
+      <point x="471.0" y="49.0" />
+      <point x="545.6666666666666" y="49.0" />
+      <point x="-29.33333333333333" y="15.5" />
+    </edge>
+    <edge source="builder.abstractFactoryPattern.Square" target="builder.abstractFactoryPattern.Shape">
+      <point x="0.0" y="-15.5" />
+      <point x="304.0" y="56.0" />
+      <point x="217.33333333333331" y="56.0" />
+      <point x="29.333333333333314" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="133.0" y="158.0" />
+  <SelectedNodes>
+    <node>builder.abstractFactoryPattern.Rectangle</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
