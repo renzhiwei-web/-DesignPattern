@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.adapterPattern.VlcPlayer</OriginalElement>
+  <nodes>
+    <node x="174.67592592592587" y="0.0">structural.adapterPattern.AdvancedMediaPlayer</node>
+    <node x="381.0" y="140.5">structural.adapterPattern.MediaPlayer</node>
+    <node x="0.0" y="129.0">structural.adapterPattern.VlcPlayer</node>
+    <node x="162.6342592592592" y="258.0">structural.adapterPattern.MediaAdapter</node>
+    <node x="290.5" y="412.0">structural.adapterPattern.AudioPlayer</node>
+    <node x="189.99999999999997" y="129.0">structural.adapterPattern.Mp4Player</node>
+    <node x="304.0" y="542.0">structural.adapterPattern.AdapterPatternDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.adapterPattern.AudioPlayer" target="structural.adapterPattern.MediaPlayer">
+      <point x="73.0" y="-40.0" />
+      <point x="473.0" y="387.0" />
+      <point x="519.0" y="387.0" />
+      <point x="46.0" y="28.0" />
+    </edge>
+    <edge source="structural.adapterPattern.Mp4Player" target="structural.adapterPattern.AdvancedMediaPlayer">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="structural.adapterPattern.MediaAdapter" target="structural.adapterPattern.MediaPlayer">
+      <point x="115.875" y="-52.0" />
+      <point x="433.00925925925924" y="233.0" />
+      <point x="427.0" y="233.0" />
+      <point x="-46.0" y="28.0" />
+    </edge>
+    <edge source="structural.adapterPattern.VlcPlayer" target="structural.adapterPattern.AdvancedMediaPlayer">
+      <point x="0.0" y="-39.5" />
+      <point x="85.0" y="104.0" />
+      <point x="208.00925925925918" y="104.0" />
+      <point x="-66.66666666666669" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.5" y="299.0" />
+  <SelectedNodes>
+    <node>structural.adapterPattern.VlcPlayer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
